@@ -1,19 +1,6 @@
-# Quiz Game
+# Quiz with Laravel and React
 
 A full-stack web application for creating and playing quizzes, built with Laravel for the backend and React for the frontend.
-
-## Table of Contents
-
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Backend Setup (Laravel)](#backend-setup-laravel)
-- [Frontend Setup (React)](#frontend-setup-react)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [User Roles and Permissions](#user-roles-and-permissions)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -23,9 +10,12 @@ A full-stack web application for creating and playing quizzes, built with Larave
 - Real-time quiz play
 - Responsive design
 
+## Versions
+- Laravel (11)
+
 ## Prerequisites
 
-- PHP (latest version)
+- PHP (8.2)
 - Composer
 - Node.js and npm (or yarn)
 - MySQL or another supported database
@@ -36,8 +26,10 @@ A full-stack web application for creating and playing quizzes, built with Larave
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/quiz-game.git
-    cd quiz-game
+    git clone https://github.com/daung-mikrokosmos/quiz-with-laravel-react.git
+    ```
+    ```bash
+    cd quiz-with-laravel-react
     ```
 
 2. Install dependencies:
@@ -52,9 +44,9 @@ A full-stack web application for creating and playing quizzes, built with Larave
 
 4. Configure your database in the `.env` file:
     ```dotenv
-    DB_CONNECTION=mysql
+    DB_CONNECTION= or else
     DB_HOST=127.0.0.1
-    DB_PORT=3306
+    DB_PORT=3306 or your port
     DB_DATABASE=your_database_name
     DB_USERNAME=your_database_username
     DB_PASSWORD=your_database_password
@@ -137,7 +129,7 @@ A full-stack web application for creating and playing quizzes, built with Larave
   - Can manage all quizzes, questions, and levels
   - Can manage users and their roles
 
-- **Editor**
+- **Member**
   - Can create and manage quizzes and questions
 
 - **User**
